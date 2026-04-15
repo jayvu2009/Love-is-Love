@@ -201,3 +201,6 @@ function initRevealObserver() {
 }
 
 initRevealObserver();
+
+
+// thank you for the help of Bao Tran (my partner) in this project, he helped me a lot in the development of this project, and I really appreciate his help and support. 
