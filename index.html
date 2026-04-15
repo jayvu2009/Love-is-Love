@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love is Love</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header / Navigation -->
+    <header class="site-header navbar" id="site-header">
+      <div class="nav-container">
+        <a href="#home" class="logo">Love is Love</a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#home" class="nav-link is-active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#stories" class="nav-link">Stories</a></li>
+            <li><a href="#facts" class="nav-link">Facts</a></li>
+            <li><a href="#hope" class="nav-link">Hope</a></li>
+            <li><a href="#take-action" class="nav-link">Take Action</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section id="home" class="section hero" data-section="home">
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <div class="hero-stack">
+            <p class="hero-kicker hero-load hero-kicker-animate">
+              LIVE WITH THE VERSION YOU'RE PROUD OF
+            </p>
+            <h1 class="hero-load hero-title">Love is Love</h1>
+            <span class="rainbow-divider hero-load hero-divider" aria-hidden="true"></span>
+            <p class="hero-description hero-load hero-description-animate">
+              Raising awareness and celebrating LGBTQ+ relationships in regions where
+              acceptance is still a journey
+            </p>
+            <a href="#stories" class="btn btn-primary hero-load hero-cta">Explore Stories</a>
+          </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+          <ion-icon name="chevron-down-outline"></ion-icon>
+        </a>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section about" data-section="about">
+        <div class="container">
+          <div class="section-heading reveal-up">
+            <h2 class="gradient-title">About Us</h2>
+            <span class="rainbow-divider" aria-hidden="true"></span>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy reveal-left">
+              <p>
+                Love is Love is an interactive storytelling project dedicated to honoring LGBTQ+ relationships and identities across cultures. Our goal is to create a respectful digital space where stories foster empathy, challenge stigma, and invite audiences to see love beyond boundaries.
+              </p>
+              <p>
+                Through thoughtful design and personal narratives, we aim to make awareness tangible, human, and memorable for everyone who visits.
+              </p>
+            </div>
+            <figure class="about-image-wrap reveal-right">
+              <img
+                src="assets/about-image-1.jpg"
+                alt="People standing together in support and solidarity"
+              />
+            </figure>
+          </div>
+
+          <div class="values-grid stagger-group" data-stagger-step="0.15">
+            <article class="value-card reveal-up stagger-item">
+              <div class="icon-badge gradient-emotional">
+                <ion-icon name="heart-outline"></ion-icon>
+              </div>
+              <h3>Emotional Storytelling</h3>
+              <p>
+                Honest stories that connect people through compassion, dignity, and lived experience.
+              </p>
+            </article>
+            <article class="value-card reveal-up stagger-item">
+              <div class="icon-badge gradient-interactive">
+                <ion-icon name="sparkles-outline"></ion-icon>
+              </div>
+              <h3>Interactive Design</h3>
+              <p>
+                Accessible and engaging web interaction that guides visitors with clarity and care.
+              </p>
+            </article>
+            <article class="value-card reveal-up stagger-item">
+              <div class="icon-badge gradient-inclusive">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+              <h3>Promoting Inclusivity</h3>
+              <p>
+                A platform that encourages allyship, understanding, and collective respect.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stories -->
+      <section id="stories" class="section stories" data-section="stories">
+        <div class="container">
+          <div class="section-heading reveal-up">
+            <h2 class="gradient-title">Real Stories, Real People</h2>
+            <span class="rainbow-divider" aria-hidden="true"></span>
+            <p>
+              Every love story deserves to be heard, celebrated, and respected
+            </p>
+          </div>
+
+          <div class="stories-carousel" aria-label="Stories carousel">
+            <button
+              class="carousel-btn carousel-btn-left"
+              type="button"
+              id="stories-prev"
+              aria-label="View previous story"
+            >
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </button>
+
+            <div class="carousel-track" id="stories-track">
+              <article class="story-card" data-index="0">
+                <img src="assets/story-card-1.JPG" alt="Portrait of Jay and Bảo" />
+                <div class="story-content">
+                  <h3>Jay &amp; Bảo</h3>
+                  <p>
+                    Building a quiet long distance relationship together while navigating cultural expectations and visibility.
+                  </p>
+                  <a href="#" class="story-link">Read Story</a>
+                </div>
+              </article>
+              <article class="story-card" data-index="1">
+                <img src="assets/story-card-2.JPG" alt="Portrait of Matthew and Gunwook" />
+                <div class="story-content">
+                  <h3>Matthew &amp; Gunwook</h3>
+                  <p>
+                    Their partnership grew through years of advocacy, care, family and friend support.
+                  </p>
+                  <a href="#" class="story-link">Read Story</a>
+                </div>
+              </article>
+              <article class="story-card" data-index="2">
+                <img src="assets/story-card-3.jpg" alt="Portrait of Samira and Noor" />
+                <div class="story-content">
+                  <h3>Samira &amp; Noor</h3>
+                  <p>
+                    A story of courage, family conversations, and choosing love in uncertain spaces.
+                  </p>
+                  <a href="#" class="story-link">Read Story</a>
+                </div>
+              </article>
+              <article class="story-card" data-index="3">
+                <img class="story-image-top" src="assets/story-card-5.jpg" alt="Portrait of Jordan and Eli" />
+                <div class="story-content">
+                  <h3>Jordan &amp; Eli</h3>
+                  <p>
+                    A joyful couple celebrating love freely, breaking traditions and embracing who they truly are.
+                  </p>
+                  <a href="#" class="story-link">Read Story</a>
+                </div>
+              </article>
+              <article class="story-card" data-index="4">
+                <img class="story-image-top" src="assets/story-card-4.jpg" alt="Portrait of Alex and Priya" />
+                <div class="story-content">
+                  <h3>Alex &amp; Priya</h3>
+                  <p>
+                    A successful marriage of a transgender girl.
+                  </p>
+                  <a href="#" class="story-link">Read Story</a>
+                </div>
+              </article>
+            </div>
+
+            <button
+              class="carousel-btn carousel-btn-right"
+              type="button"
+              id="stories-next"
+              aria-label="View next story"
+            >
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Facts -->
+      <section id="facts" class="section facts" data-section="facts">
+        <div class="container">
+          <div class="section-heading reveal-up">
+            <h2 class="gradient-title">The Reality Today</h2>
+            <span class="rainbow-divider" aria-hidden="true"></span>
+            <p>
+              Understanding the challenges helps us build a more inclusive world
+            </p>
+          </div>
+
+          <div class="facts-grid stagger-group" data-stagger-step="0.1">
+            <article class="fact-card reveal-up stagger-item">
+              <div class="icon-badge gradient-fact-1">
+                <ion-icon name="globe-outline"></ion-icon>
+              </div>
+              <h3>70+</h3>
+              <p class="fact-label">COUNTRIES</p>
+              <p>where same-sex relationships remain criminalized</p>
+            </article>
+            <article class="fact-card reveal-up stagger-item">
+              <div class="icon-badge gradient-fact-2">
+                <ion-icon name="people-circle-outline"></ion-icon>
+              </div>
+              <h3>Global Experiences</h3>
+              <p class="fact-label">LGBTQ+ INDIVIDUALS</p>
+              <p>
+                continue to face discrimination and inequality in many parts of
+                the world
+              </p>
+            </article>
+            <article class="fact-card reveal-up stagger-item">
+              <div class="icon-badge gradient-fact-3">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+              <h3>Safety and Expression</h3>
+              <p class="fact-label">MANY INDIVIDUALS</p>
+              <p>
+                feel unsafe expressing their identity openly in public spaces
+              </p>
+            </article>
+            <article class="fact-card reveal-up stagger-item">
+              <div class="icon-badge gradient-fact-4">
+                <ion-icon name="trending-up-outline"></ion-icon>
+              </div>
+              <h3>Growing</h3>
+              <p class="fact-label">ACCEPTANCE</p>
+              <p>with younger generations leading the change</p>
+            </article>
+          </div>
+
+          <p class="facts-note reveal-up" style="--reveal-delay: 0.4s">
+            Progress is real, but uneven. By listening, learning, and standing
+            together, we can help turn momentum into meaningful, lasting change.
+          </p>
+        </div>
+      </section>
+
+      <!-- Hope -->
+      <section id="hope" class="section hope" data-section="hope">
+        <div class="container">
+          <blockquote class="quote-block reveal-up">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <p>
+              Love recognizes no barriers. It jumps hurdles, leaps fences,
+              penetrates walls to arrive at its destination full of hope.
+            </p>
+            <footer>— Maya Angelou</footer>
+            <span class="rainbow-divider" aria-hidden="true"></span>
+          </blockquote>
+
+          <div class="section-heading reveal-up">
+            <h2 class="gradient-title">Stories of Hope &amp; Progress</h2>
+            <p>
+              Celebrating individuals who are making a difference in their
+              communities
+            </p>
+          </div>
+
+          <div class="hope-cards stagger-group" data-stagger-step="0.15">
+            <article class="hope-card reveal-up stagger-item">
+              <h3>Maria Chen</h3>
+              <p class="role-pill role-pink">Artist &amp; Activist</p>
+              <p>
+                Maria uses public murals and workshops to open conversations about
+                belonging and identity.
+              </p>
+            </article>
+            <article class="hope-card reveal-up stagger-item">
+              <h3>David &amp; James</h3>
+              <p class="role-pill role-rose">Community Leaders</p>
+              <p>
+                They run local support circles that connect families with trusted
+                mentors and resources.
+              </p>
+            </article>
+            <article class="hope-card reveal-up stagger-item">
+              <h3>Zara Ahmed</h3>
+              <p class="role-pill role-blue">Policy Advocate</p>
+              <p>
+                Zara collaborates with legal groups to expand protections and
+                access for marginalized communities.
+              </p>
+            </article>
+          </div>
+
+          <figure class="hope-image-wrap reveal-scale">
+            <img src="assets/hope.jpg" alt="Community gathering with hopeful atmosphere" />
+          </figure>
+
+          <p class="hope-note reveal-up" style="--reveal-delay: 0.2s">
+            Change grows when stories are shared and communities choose empathy.
+            Every action, however small, can help someone feel seen, safe, and
+            valued.
+          </p>
+        </div>
+      </section>
+
+      <!-- Take Action -->
+      <section id="take-action" class="section take-action" data-section="take-action">
+        <div class="container">
+          <div class="section-heading reveal-up">
+            <h2>Be Part of the Change</h2>
+            <span class="action-divider" aria-hidden="true"></span>
+            <p>
+              Support inclusive communities by learning, sharing, and showing up
+              with care.
+            </p>
+          </div>
+
+          <div class="actions-grid stagger-group" data-stagger-step="0.1">
+            <article class="action-card reveal-up stagger-item">
+              <ion-icon name="book-outline"></ion-icon>
+              <h3>Learn More</h3>
+              <p>Understand lived experiences and key issues affecting LGBTQ+ rights.</p>
+            </article>
+            <article class="action-card reveal-up stagger-item">
+              <ion-icon name="people-outline"></ion-icon>
+              <h3>Get Involved</h3>
+              <p>Volunteer with organizations building safer and more inclusive spaces.</p>
+            </article>
+            <article class="action-card reveal-up stagger-item">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+              <h3>Share Stories</h3>
+              <p>Amplify voices that deserve to be heard with respect and responsibility.</p>
+            </article>
+            <article class="action-card reveal-up stagger-item">
+              <ion-icon name="heart-outline"></ion-icon>
+              <h3>Show Support</h3>
+              <p>Stand with friends, families, and communities through visible allyship.</p>
+            </article>
+          </div>
+
+          <div class="action-buttons reveal-up" style="--reveal-delay: 0.35s">
+            <a href="#" class="btn action-btn-primary">Learn More</a>
+            <a href="#" class="btn action-btn-secondary">Support Us</a>
+          </div>
+
+          <p class="action-footnote reveal-up" style="--reveal-delay: 0.45s">
+            Love is Love © 2026 - A project dedicated to awareness and acceptance
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
